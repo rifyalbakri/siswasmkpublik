@@ -1,0 +1,95 @@
+* {padding: 0;
+margin: 0;}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+hr {
+    margin-bottom: 20px;
+    border: 1 px solid #ddd;
+}
+
+
+.menu {
+    background: #444;
+    margin: 0;
+    padding: 0;}
+
+.list {
+    display:inline-block;
+    padding: 15px;}
+
+.menu .list a {
+    color: white;
+}
+
+a {
+    color:red ;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #460d0d;
+    text-decoration: underline;
+}
+.list:hover {
+    background: #222;
+}
+.card {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin:20px;
+    border-radius: 6px;
+}
+.card-title {
+    margin-bottom: 15px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display:block;
+    margin-bottom: 5px;
+}
+.form-group .form {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+}
+.form-group .form:focus {
+    border: 1px solid red;
+}
+.button {
+    background: #444 ;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* cursor: pointer; */
+}
+.button.blue {
+    background: #28a4da;
+}
+
+.button.blue:hover {
+    background: #0f82b4;
+}
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+textarea.form  {
+    padding: 10px;
+    height: auto!important;
+    resize: none;
+}
